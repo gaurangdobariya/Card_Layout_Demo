@@ -9,21 +9,24 @@
     android:layout_marginTop="8dp"
     android:layout_marginBottom="8dp"
     android:orientation="vertical">
-    <io.fotoapparat.view.CameraView
+    <!--<io.fotoapparat.view.CameraView
         android:id="@+id/camera_view"
         android:layout_width="match_parent"
         android:visibility="visible"
-        android:layout_height="300dp"/>
+        android:layout_height="300dp"&ndash;&gt;
+    -->
     <ImageView
         android:layout_width="match_parent"
         android:id="@+id/result"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="10dp"/>
+        android:layout_height="250dp"
+        />
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="click!!!"
+        android:layout_gravity="center"
         android:id="@+id/bu"/>
+
     <android.support.v7.widget.RecyclerView
         android:id="@+id/my_recycler_view"
         android:layout_width="match_parent"
